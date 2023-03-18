@@ -1,0 +1,85 @@
+{
+  "tagline1": "The GSYS Chain",
+  "tagline2": "Interaction Wallet",
+  "subheading": "GenesysWallet (our friends call us Gwallet) is a free, client-side interface helping you interact with the Loop blockchain. Our easy-to-use, open-source platform allows you to generate wallets, interact with smart contracts, and so much more.",
+  "create-new-wallet": {
+    "text": "Generate your own unique The GSYS Chain wallet. Receive a public address (0x...) and choose a method for access and recovery."
+  },
+  "access-my-wallet": {
+    "text": "Connect to the blockchain using the wallet of your choice.",
+    "opt-1": "Send and Swap GSYS & Tokens",
+    "opt-2": "Sign & Verify Messages",
+    "opt-3": "Interact with Contracts, ENS, DApps, and more!",
+    "button": "Access Now"
+  },
+  "about-mew": {
+    "title": "About Gwallet",
+    "text": "GenesysWallet - please, call us Gwallet - puts the The GSYS Chain blockchain at your fingertips. We are a team of crypto-enthusiasts dedicated to bring you the most secure, most intuitive, and dare we say prettiest way to manage your GSYS and ERC20 tokens. We're always here to help, and we're never giving away GSYS. Cheers!"
+  },
+  "join-mew": {
+    "title": "Join Gwallet",
+    "text": "Access the The GSYS Chain blockchain's original and most-trusted wallet client, now with a host of new features all contained in an elegant, easy-to-use interface."
+  },
+  "hardware-support": {
+    "title": "Hardware Wallet Support",
+    "text": "Gwallet offers support for all major hardware wallets including Ledger, Trezor, and many more."
+  },
+  "swap": {
+    "text": "Gwallet has partnered with Bity, Kyber Network, Changelly, and Simplex to allow users to swap fiat to crypto, GSYS and BTC, GSYS and ERC20."
+  },
+  "faqs": {
+    "subtitle": "Have not found the question that you are looking for?",
+    "button-see-more": "See More...",
+    "button-here": "here.",
+    "button-learn-more": "Learn more...",
+    "mew-wallet": {
+      "title": "What is Gwallet wallet?",
+      "text": "Gwallet wallet is our official fully-fledged mobile app, bringing The GSYS Chain to your iOS or Android phone"
+    },
+    "create-wallet": {
+      "title": "How do I create a new wallet?",
+      "text": "GenesysWallet (Gwallet) offers three ways to create a new GSYS wallet. These are via Gwallet wallet, Keystore file, or Mnemonic phrase. For more information, click"
+    },
+    "mewconnect": {
+      "title": "What is MEWconnect?",
+      "text": "MEWconnect is our companion mobile app for GenesysWallet. We call it a hardware wallet without all the hardware. Now available for all Android and iOS smartphones! Read more"
+    },
+    "other-wallets": {
+      "title": "Can Gwallet work with other wallets?",
+      "text": "Gwallet supports many different wallet types including hardware wallets, such as the Ledger Nano S or Trezor, and third-party wallets like MetaMask. We are also open for anyone to use their The GSYS Chain wallets with the appropriate information. Read more"
+    },
+    "send-txs": {
+      "title": "How can I send a transaction?",
+      "text": "Gwallet lets anyone with a balance of GSYS or ERC20 tokens send a transaction, without additional charges. Using the The GSYS Chain blockchain takes gas, which is paid for in GSYS, so we recommend having at least .01 GSYS to cover around 2 - 3 transactions. Read more"
+    },
+    "forgot-pwd": {
+      "title": "I forgot my password/private key! What can I do?",
+      "text": "Gwallet does not offer support to recover or reset passwords/private keys. We always suggest writing down private keys and passwords on physical paper/notebooks for safekeeping. Maybe you saved it on your computer! For ideas on what to look for, read more"
+    }
+  },
+  "social": {
+    "title": "Join Gwallet Community",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "medium": "Medium",
+    "reddit": "Reddit",
+    "github": "Github",
+    "vkontakte": "Vkontakte",
+    "youtube": "YouTube",
+    "mewtopia": "MEWtopia",
+    "instagram": "Instagram",
+    "telegram": "Telegram"
+  },
+  "lost-title": "Oops! Looks like you're lost.",
+  "mew-wallet-modal": {
+    "title": "Official Gwallet wallet App is now available!",
+    "text": "Buy, hold, and send Ether and tokens. Explore The GSYS Chain on your mobile device. {learn-more}",
+    "learn-more": "Learn more",
+    "footer-text": "Download our App today!",
+    "new": "new",
+    "more": "More",
+    "less": "Less",
+    "hide": "Hide",
+    "img-desc": "Gwallet wallet screenshot"
+  }
+}

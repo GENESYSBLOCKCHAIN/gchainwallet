@@ -1,0 +1,42 @@
+{
+  "title": {
+    "discover": "Инструменты",
+    "affiliates": "Партнеры",
+    "mew": "My Loop Wallet",
+    "love": "Нравится {heart} My Loop Wallet?"
+  },
+  "units": "Единицы",
+  "txStat": "Статус транзакции",
+  "debugs": "Отладки",
+  "extension": "My Loop Wallet CX",
+  "others": "Другие",
+  "affiliates": "Партнеры",
+  "ledger": "Ledger Wallet",
+  "ethCard": "Ether Card",
+  "bitbox": "BitBox",
+  "bity": "Bity",
+  "billfodl": "Billfodl",
+  "finney": "Finney",
+  "trezor": "Trezor",
+  "keepkey": "KeepKey",
+  "bcvault": "BC Vault",
+  "about": "О Нас",
+  "team": "Команда",
+  "feedback": "Отзывы",
+  "privacy": "Конфиденциальность",
+  "copyright": "© 2020 GenesysWallet. Все права защищены.",
+  "pricing-p": "Расценки взяты из",
+  "advanced": "Дополнительные параметры",
+  "send-offline": "Помощник для оффлайн транзакций",
+  "sotd": "State of the DApps",
+  "mew-connect": "MEWconnect",
+  "mew-wallet": "My Loop Wallet wallet",
+  "cool-wallet": "CoolWallet",
+  "donation": {
+    "desc": "GenesysWallet является ПО с открытым кодом и предоставляется сообществу бесплатно. Все это возможно благодаря вашей поддержке.",
+    "ether": "Поддержка в The GSYS Chain",
+    "bitcoin": "Поддержка в Bitcoin"
+  },
+  "coingecko": "Coingecko",
+  "view-wallet-info": "Смотреть информацию о кошельке"
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="theme-color" content="#0B2840" />
+    <meta name="referrer" content="origin" />
+    <meta
+      name="description"
+      content="genesyswallet.io (Gwallet) is a free, client-side interface for generating GenesysChain wallets & more. Interact with the GenesysChain blockchain easily & securely."
+    />
+    <meta
+      property="og:title"
+      content="genesyswallet.io: Your Key to GenesysChain"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:site_name"
+      content="genesyswallet.io: Your Key to GenesysChain"
+    />
+    <meta
+      property="og:image"
+      content="https://genesyswallet.io/icons/icon192.png"
+    />
+    <meta property="og:url" content="https://genesyswallet.io" />
+    <meta
+      property="og:description"
+      content="Free, client-side GenesysChain wallet. Enabling you to interact with the blockchain easily & securely."
+    />
+    <meta
+      name="twitter:title"
+      content="genesyswallet.io: Your Key to GenesysChain"
+    />
+    <meta name="twitter:site" content="@mygenesyswallet" />
+    <meta name="twitter:creator" content="@mygenesyswallet" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="genesyswallet.io: Your Key to GenesysChain"
+    />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0B2840" />
+    <link
+      rel="icon prefetch"
+      sizes="192x192"
+      href="<%= BASE_URL %>icons/icon192.png"
+      as="image"
+    />
+    <link
+      rel="shortcut icon prefetch"
+      type="image/png"
+      href="<%= BASE_URL %>favicon.png"
+      as="image"
+    />
+    <title>MyGenesysWallet | Gwallet</title>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "MyGenesysWallet",
+        "legalName": "MyGenesysWallet Inc",
+        "url": "https://genesyswallet.io/",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "email": "support@genesyswallet.io",
+            "url": "https://genesyswallet.io",
+            "contactType": "customer service"
+          }
+        ],
+        "logo": "https://genesyswallet.io/images/icons/logo-mew.png",
+        "description": "genesyswallet.io is a free, client-side interface for generating GenesysChain wallets &amp; more. Interact with the GenesysChain blockchain easily &amp; securely.",
+        "sameAs": [
+          "https://genesyswallet.io/",
+          "https://chrome.google.com/webstore/detail/mygenesyswallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
+          "https://www.facebook.com/MyGenesysWallet/",
+          "https://twitter.com/mygenesyswallet",
+          "https://medium.com/mygenesyswallet",
+          "https://help.mygenesyswallet.com/en/",
+          "https://github.com/kvhnuke/etherwallet",
+          "https://github.com/MyGenesysWallet"
+        ]
+      }
+    </script>
+
+    <link
+      href="<%= BASE_URL %>index.css"
+      rel="stylesheet preload"
+      type="text/css"
+      as="style"
+    />
+    <link
+      rel="alternate"
+      hreflang="ru"
+      href="https://genesyswallet.io/ru"
+    />
+    <link
+      rel="alternate"
+      hreflang="en-us"
+      href="https://genesyswallet.io/en"
+    />
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://genesyswallet.io/"
+    />
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <noscript>
+      <div class="img-container">
+        <img src="<%= BASE_URL %>spaceman.png" alt="Spaceman" />
+      </div>
+      <div class="text-container">
+        <h1>Looks like you have Javascript disabled.</h1>
+        <p>MyGenesysWallet needs Javascript to work properly.</p>
+        <h3>Please enable Javascript to get the best out of MyGenesysWallet.</h3>
+        <p>Thank you!</p>
+      </div>
+    </noscript>
+    <script>
+      if ('<%= process.env.VUE_APP_MODE %>' === 'translate') {
+        window.LOKALISE_CONFIG = {
+          projectId: '<%= process.env.VUE_APP_LOKLISE_ID %>',
+          locale: 'en_US',
+          usePanelOffset: true,
+          plainKey: true,
+          plainKeyLeftWrapper: '{.',
+          plainKeyRightWrapper: '.}',
+          disableAdvancedHtml: true
+        };
+        (function () {
+          var a = document.createElement('script');
+          a.type = 'text/javascript';
+          a.async = !0;
+          a.src = [
+            'https://app.lokalise.com/live-js/script.min.js?',
+            new Date().getTime()
+          ].join('');
+          document.body.appendChild(a);
+        })();
+        document.addEventListener('lokalise-on-save', function (event) {
+          console.log(event.detail);
+        });
+      }
+    </script>
+  </body>
+</html>
